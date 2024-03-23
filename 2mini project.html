@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2mini project </title>
+</head>
+<body>
+    
+    <p>
+        This is the link:
+        <span id="link"></span>
+    </p>
+
+   <script>
+     var url = prompt("enter a URL");
+
+     if(url == null)
+    //   alert("missing input")
+    //  (url.substr(0, 4) == "http") 
+     {
+      }else {
+        url="http://"+ url
+       } 
+
+        var  spanNode = document.getElementById("link");
+         
+           spanNode.innerHTML  = " <a href ='"+ url +"'>" + url + "</a>"
+           
+              spanNode.innerText = html;
+
+
+
+   </script>
+
+
+</body>
+</html>
